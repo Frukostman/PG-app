@@ -1,0 +1,94 @@
+{
+	"meta":
+	[
+		{
+			"name": "date",
+			"type": "String"
+		},
+		{
+			"name": "totalCustomers",
+			"type": "UInt64"
+		},
+		{
+			"name": "uniqueCustomers",
+			"type": "UInt64"
+		},
+		{
+			"name": "partition",
+			"type": "Int32"
+		}
+	],
+
+	"data":
+	[
+		{
+			"date": "2022-06",
+			"totalCustomers": 1,
+			"uniqueCustomers": 1,
+			"partition": 0
+		},
+		{
+			"date": "2022-05",
+			"totalCustomers": 6,
+			"uniqueCustomers": 1,
+			"partition": 3
+		},
+		{
+			"date": "2022-05",
+			"totalCustomers": 6,
+			"uniqueCustomers": 1,
+			"partition": 1
+		},
+		{
+			"date": "2022-05",
+			"totalCustomers": 6,
+			"uniqueCustomers": 6,
+			"partition": 0
+		},
+		{
+			"date": "2022-04",
+			"totalCustomers": 9,
+			"uniqueCustomers": 1,
+			"partition": 6
+		},
+		{
+			"date": "2022-04",
+			"totalCustomers": 9,
+			"uniqueCustomers": 1,
+			"partition": 5
+		},
+		{
+			"date": "2022-04",
+			"totalCustomers": 9,
+			"uniqueCustomers": 3,
+			"partition": 4
+		},
+		{
+			"date": "2022-04",
+			"totalCustomers": 9,
+			"uniqueCustomers": 3,
+			"partition": 3
+		},
+		{
+			"date": "2022-04",
+			"totalCustomers": 9,
+			"uniqueCustomers": 7,
+			"partition": 1
+		},
+		{
+			"date": "2022-04",
+			"totalCustomers": 9,
+			"uniqueCustomers": 9,
+			"partition": 0
+		}
+	],
+
+	"rows": 10,
+
+	"statistics":
+	{
+		"elapsed": 0.00162971,
+		"rows_read": 5083,
+		"bytes_read": 42302
+	}
+}
